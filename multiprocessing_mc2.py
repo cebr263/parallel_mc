@@ -190,7 +190,7 @@ def main(tiff_arr, output_dir, num_processes, padding):
 if __name__ == "__main__":
 
     ## turn tiff into numpy array
-    tiff_arr = tiff.imread('reslice_matrix_bin4x_min.tif')
+    tiff_arr = tiff.imread('203vox_nohole.tif')
     if len(tiff_arr.shape) < 3:
         print('Error: Recieved TIFF image not volume!')
         sys.exit()
